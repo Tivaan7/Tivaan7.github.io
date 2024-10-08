@@ -897,12 +897,12 @@ main {
 
 .results-title {
   text-align: center;
-  margin: 100px 0 50px; /* Increased top margin for much more spacing */
+  margin: 40px 0 20px; /* Further reduced top and bottom margins */
 }
 
 .matric-image {
   text-align: center; /* Center the content inside the div */
-  margin-bottom: 100px; /* Increased bottom margin for much more spacing */
+  margin-bottom: 30px; /* Reduced bottom margin */
 }
 
 .matric-image img,
@@ -921,11 +921,11 @@ main {
 }
 
 .course-results {
-  margin-top: 140px; /* Added margin for significantly lower placement */
+  margin-top: 40px; /* Further reduced margin for closer placement to matric results */
 }
 
 .course-results .results-title {
-  margin-top: 80px; /* Increased top margin for much more spacing from matric results */
+  margin-top: 10px; /* Reduced margin for even closer heading placement */
   text-align: center; /* Centered the heading */
 }
 
@@ -933,8 +933,8 @@ main {
   display: flex;
   flex-direction: column; /* Stack images vertically */
   align-items: center; /* Center images */
-  gap: 20px; /* Space between images */
-  margin-top: 20px; /* Space below heading */
+  gap: 10px; /* Reduced space between images */
+  margin-top: 10px; /* Slightly reduced space below heading */
 }
 /*-----------------------------------*\
   #PORTFOLIO
